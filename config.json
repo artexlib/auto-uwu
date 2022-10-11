@@ -2,6 +2,7 @@
     "version": 1,
     "data": {
         "isEnabled": true,
+        "autoMode": true,
         "uChannel": 0
     }
 }

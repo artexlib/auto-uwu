@@ -1,5 +1,6 @@
 const DefaultSettings = {
     "isEnabled": true,
+    "autoMode": true,
     "uChannel": 0
 }
 

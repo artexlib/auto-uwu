@@ -2,7 +2,9 @@ module.exports = function uwuCore(uwu) {
 
     let isEnabled = uwu.settings.isEnabled;
     let uChannel = uwu.settings.uChannel;
+    let autoCh = uwu.settings.autoMode;
     let randomMs = Math.floor(Math.random() * 402) + 807;
+    let allChnls = [0, 1, 2, 3, 4, 27, 32];
     let used = ['uwu', 'owo', 'qwq', 'qvq', 'ewo', 'uwo', 'q_q', 'owu', 'owe', 'ewe'];
 
     uwu.command.add('uwu', (...args) => {
@@ -52,6 +54,11 @@ module.exports = function uwuCore(uwu) {
                         msg('Output channel set to: RAID')
                         return
                     }
+                    if (args[1] === "auto") {
+                        autoCh = !autoCh;
+                        msg('Auto channel ' + (autoCh ? 'enabled' : 'disabled' + '.'));
+                        break
+                    }
                 } else {
                     msg('Unknown channel! Please, check the FAQ/HELP before reporting a bug.')
                     return
@@ -78,16 +85,24 @@ module.exports = function uwuCore(uwu) {
         await new Promise(resolve => setTimeout(resolve, randomMs));
     }
 
+    function include(arr, obj) {
+        for (var i = 0; i < arr.length; i++) {
+          if (arr[i] == obj) return true;
+        }
+      }
+
     // Hooks
 
     uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.toLowerCase().includes("uwu") && event.channel == uChannel) {
-            uwu.send('C_CHAT', 1, {
-                message: 'UwU',
-                channel: event.channel
-        })} 
+        if (event.message.toLowerCase().includes("uwu")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'UwU',
+                    channel: event.channel
+        })}} 
     });
 
     uwu.hook('S_CHAT', 3 , (event) => {
