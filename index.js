@@ -5,7 +5,7 @@ module.exports = function uwuCore(uwu) {
     let autoCh = uwu.settings.autoMode;
     let randomMs = Math.floor(Math.random() * 402) + 807;
     let allChnls = [0, 1, 2, 3, 4, 27, 32];
-    let used = ['uwu', 'owo', 'qwq', 'qvq', 'ewo', 'uwo', 'q_q', 'owu', 'owe', 'ewe'];
+    let used = ['uwu', 'owo', 'qwq', 'qvq', 'ewo', 'uwo', 'q_q', 'owu', 'owe', 'ewe', 'u.u'];
 
     uwu.command.add('uwu', (...args) => {
         switch(args[0]) {
@@ -108,92 +108,120 @@ module.exports = function uwuCore(uwu) {
     uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.toLowerCase().includes("owo") && event.channel == uChannel) {
-            uwu.send('C_CHAT', 1, {
-                message: 'OwO',
-                channel: event.channel
-        })}
+        if (event.message.toLowerCase().includes("owo")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'OwO',
+                    channel: event.channel
+        })}} 
     });
 
     uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.toLowerCase().includes("qwq") && event.channel == uChannel) {
-            uwu.send('C_CHAT', 1, {
-                message: 'QwQ',
-                channel: event.channel
-        })}
+        if (event.message.toLowerCase().includes("qwq")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'QwQ',
+                    channel: event.channel
+        })}} 
     });
 
     uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.toLowerCase().includes("qvq") && event.channel == uChannel) {
-            uwu.send('C_CHAT', 1, {
-                message: 'QvQ',
-                channel: event.channel
-        })}
+        if (event.message.toLowerCase().includes("qvq")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'QvQ',
+                    channel: event.channel
+        })}} 
     });
 
     uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.toLowerCase().includes("ewo") && event.channel == uChannel) {
-            uwu.send('C_CHAT', 1, {
-                message: 'EwO',
-                channel: event.channel
-        })}
+        if (event.message.toLowerCase().includes("ewo")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'EwO',
+                    channel: event.channel
+        })}} 
     });
     
     uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.toLowerCase().includes("uwo") && event.channel == uChannel) {
-            uwu.send('C_CHAT', 1, {
-                message: 'UwO',
-                channel: event.channel
-        })}
+        if (event.message.toLowerCase().includes("uwo")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'UwO',
+                    channel: event.channel
+        })}} 
     });
 
     uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.toLowerCase().includes("q_q") && event.channel == uChannel) {
-            uwu.send('C_CHAT', 1, {
-                message: 'Q_Q',
-                channel: event.channel
-        })}
+        if (event.message.toLowerCase().includes("q_q")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'Q_Q',
+                    channel: event.channel
+        })}} 
     });
 
     uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.toLowerCase().includes("owu") && event.channel == uChannel) {
-            uwu.send('C_CHAT', 1, {
-                message: 'OwU',
-                channel: event.channel
-        })}
+        if (event.message.toLowerCase().includes("owu")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'OwU',
+                    channel: event.channel
+        })}} 
+    });
+    uwu.hook('S_CHAT', 3 , (event) => {
+        if (!isEnabled) return;
+        if (event.name === uwu.game.me.name) return;
+        if (event.message.toLowerCase().includes("OwE")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'OwE',
+                    channel: event.channel
+        })}} 
     });
 
     uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.toLowerCase().includes("OwE") && event.channel == uChannel) {
-            uwu.send('C_CHAT', 1, {
-                message: 'OwE',
-                channel: event.channel
-        })}
+        if (event.message.toLowerCase().includes("ewe")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'EwE',
+                    channel: event.channel
+        })}} 
     });
 
     uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.toLowerCase().includes("ewe") && event.channel == uChannel) {
-            AntiSpam();
-            uwu.send('C_CHAT', 1, {
-                message: 'EwE',
-                channel: event.channel
-        })}
+        if (event.message.toLowerCase().includes("u.u")) {
+            if (autoCh) { uChannel = event.channel };
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
+                uwu.send('C_CHAT', 1, {
+                    message: 'U.U',
+                    channel: event.channel
+        })}} 
     });
 
 }
