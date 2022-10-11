@@ -17,6 +17,7 @@ Command | Description
 ## FAQ Channels
 ID | Channel | FAQ
 --- | --- | ---
+auto | all | Auto channel switcher and responder.
 0 | Say | Catch UwU + response in Say
 1 | Party | Catch UwU + response in Party
 2 | Guild | Catch UwU + response in Guild
