@@ -74,15 +74,9 @@ module.exports = function uwuCore(uwu) {
         uwu.command.message(mSm); 
     }
 
-    /*function ChatSender(m, e) {
-        let rMs;
-        rMs = setTimeout(ChatSender, randomMs);
-        clearTimeout(rMs);
-        uwu.send('CHAT', 1, {
-            message: m,
-            channel: e
-        })
-    }*/
+    async function AntiSpam() {
+        await new Promise(resolve => setTimeout(resolve, randomMs));
+    }
 
     // Hooks
 
@@ -176,12 +170,15 @@ module.exports = function uwuCore(uwu) {
         })}
     });
 
-    /*uwu.hook('S_CHAT', 3 , (event) => {
+    uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
         if (event.message.toLowerCase().includes("ewe") && event.channel == uChannel) {
-            ChatSender("EwE", event.channel)    
-        }
-    });*/
+            AntiSpam();
+            uwu.send('C_CHAT', 1, {
+                message: 'EwE',
+                channel: event.channel
+        })}
+    });
 
 }
