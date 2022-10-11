@@ -176,12 +176,12 @@ module.exports = function uwuCore(uwu) {
         })}
     });
 
-    uwu.hook('S_CHAT', 3 , (event) => {
+    /*uwu.hook('S_CHAT', 3 , (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
         if (event.message.toLowerCase().includes("ewe") && event.channel == uChannel) {
             ChatSender("EwE", event.channel)    
         }
-    });
+    });*/
 
 }
