@@ -98,7 +98,7 @@ module.exports = function uwuCore(uwu) {
         if (event.name === uwu.game.me.name) return;
         if (event.message.toLowerCase().includes("uwu")) {
             if (autoCh) { uChannel = event.channel };
-            if (event.channel == uChannel) {
+            if (event.channel == uChannel && include(allChnls, event.channel)) {
                 uwu.send('C_CHAT', 1, {
                     message: 'UwU',
                     channel: event.channel
