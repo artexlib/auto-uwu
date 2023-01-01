@@ -97,7 +97,6 @@ module.exports = function uwuCore(uwu) {
     uwu.hook('S_CHAT', 3, (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (event.message.length() === 3) return;
 //       if (checkMe == 0) return;
         if (used.some(v => event.message.toLowerCase().includes(v))) {
             if (autoCh) { uChannel = event.channel };
