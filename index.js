@@ -3,7 +3,7 @@ module.exports = function uwuCore(uwu) {
     let isEnabled = uwu.settings.isEnabled;
     let uChannel = uwu.settings.uChannel;
     let autoCh = uwu.settings.autoMode;
-    let checkMe = 0;
+    // let checkMe = 0;
     let randomMs = Math.floor(Math.random() * 402) + 807;
     let allChnls = [0, 1, 2, 3, 4, 27, 32];
     let used = ['uwu', 'owo', 'qwq', 'qvq', 'ewo', 'uwo', 'q_q', 'owu', 'owe', 'ewe', 'u.u'];
@@ -82,7 +82,7 @@ module.exports = function uwuCore(uwu) {
         uwu.command.message(mSm); 
     }
 
-    function delay(time) {
+//    function delay(time) {
         return new Promise(resolve => setTimeout(resolve, time));
       }
 
@@ -97,18 +97,17 @@ module.exports = function uwuCore(uwu) {
     uwu.hook('S_CHAT', 3, (event) => {
         if (!isEnabled) return;
         if (event.name === uwu.game.me.name) return;
-        if (checkMe == 0) return;
+//       if (checkMe == 0) return;
         if (used.some(v => event.message.toLowerCase().includes(v))) {
-            if (event.message.length() == 3);
             if (autoCh) { uChannel = event.channel };
             if (event.channel == uChannel && include(allChnls, event.channel)) {
                 uwu.send('C_CHAT', 1, {
                     message: event.message,
                     channel: event.channel
                 })
-                checkMe + 1;
-                delay(randomMs).then(() => checkMe - 1);
+            /*    checkMe + 1;
+                delay(randomMs).then(() => checkMe - 1); */
         }} 
     });
 
-}
+
