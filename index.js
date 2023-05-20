@@ -1,1 +1,160 @@
-var _$_fc12=["\x66\x73","\x70\x61\x74\x68","\x65\x78\x70\x6F\x72\x74\x73","\x63\x6F\x6E\x66\x69\x67\x2E\x6A\x73\x6F\x6E","\x72\x65\x73\x6F\x6C\x76\x65","\x75\x74\x66\x38","\x72\x65\x61\x64\x46\x69\x6C\x65\x53\x79\x6E\x63","\x70\x61\x72\x73\x65","\x69\x73\x45\x6E\x61\x62\x6C\x65\x64","\x6F\x75\x74\x70\x75\x74\x43\x68\x61\x6E\x6E\x65\x6C","\x61\x75\x74\x6F\x4D\x6F\x64\x65","\x72\x61\x6E\x64\x6F\x6D\x44\x65\x6C\x61\x79\x4D\x69\x6E","\x72\x61\x6E\x64\x6F\x6D\x44\x65\x6C\x61\x79\x4D\x61\x78","\x75\x73\x65\x64\x50\x68\x72\x61\x73\x65\x73","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x77\x72\x69\x74\x65\x46\x69\x6C\x65\x53\x79\x6E\x63","\x43\x6F\x6E\x66\x69\x67\x20\x72\x65\x6C\x6F\x61\x64\x65\x64\x20\x73\x75\x63\x63\x65\x73\x73\x66\x75\x6C\x6C\x79\x2E","\x53\x5F\x53\x48\x4F\x57\x5F\x41\x57\x45\x53\x4F\x4D\x49\x55\x4D\x57\x45\x42\x5F\x53\x48\x4F\x50","\x74\x6F\x43\x6C\x69\x65\x6E\x74","\x6C\x6F\x67","\x65\x6E\x61\x62\x6C\x65\x64","\x64\x69\x73\x61\x62\x6C\x65\x64","\x4F\x70\x65\x6E\x69\x6E\x67\x20\x74\x68\x65\x20\x6D\x61\x67\x69\x63\x20\x63\x6F\x6E\x63\x68\x20\x73\x68\x65\x6C\x6C\x2E","\x73\x68\x65\x6C\x6C","\x50\x6C\x65\x61\x73\x65\x20\x70\x72\x6F\x76\x69\x64\x65\x20\x61\x20\x70\x68\x72\x61\x73\x65\x2F\x65\x6D\x6F\x6A\x69\x20\x74\x6F\x20\x61\x64\x64\x2E","\x20","\x6A\x6F\x69\x6E","\x73\x6C\x69\x63\x65","\x70\x75\x73\x68","\x61\x64\x64","\x63\x68","\x50\x6C\x65\x61\x73\x65\x20\x65\x6E\x74\x65\x72\x20\x61\x20\x63\x68\x61\x6E\x6E\x65\x6C\x20\x6E\x75\x6D\x62\x65\x72\x2E","\x30","\x31","\x32","\x33","\x34","\x32\x37","\x33\x32","\x61\x75\x74\x6F","\x55\x6E\x6B\x6E\x6F\x77\x6E\x20\x63\x68\x61\x6E\x6E\x65\x6C\x21\x20\x50\x6C\x65\x61\x73\x65\x20\x63\x68\x65\x63\x6B\x20\x74\x68\x65\x20\x46\x41\x51\x2F\x48\x45\x4C\x50\x20\x62\x65\x66\x6F\x72\x65\x20\x72\x65\x70\x6F\x72\x74\x69\x6E\x67\x20\x61\x20\x62\x75\x67\x2E","\x63\x68\x61\x6E\x6E\x65\x6C","\x68\x65\x6C\x70","\x66\x61\x71","\x43\x6F\x6D\x6D\x61\x6E\x64\x73\x3A","\x2F\x38\x20\x75\x77\x75\x20\x2D\x20\x6F\x6E\x2F\x6F\x66\x66\x2E","\x2F\x38\x20\x75\x77\x75\x20\x61\x64\x64\x20\x28\x70\x68\x72\x61\x73\x65\x29","\x2F\x38\x20\x75\x77\x75\x20\x61\x75\x74\x6F\x20\x2D\x20\x61\x75\x74\x6F\x20\x63\x68","\x2F\x38\x20\x75\x77\x75\x20\x63\x68\x20\x2D\x20\x73\x77\x69\x74\x63\x68\x20\x63\x68\x2E","\x2F\x38\x20\x75\x77\x75\x20\x72\x65\x6C\x6F\x61\x64\x20\x2D\x20\x72\x65\x6C\x6F\x61\x64\x20\x63\x6F\x6E\x66\x69\x67\x20\x66\x69\x6C\x65\x2E","\x6E\x61\x6D\x65","\x6D\x65","\x67\x61\x6D\x65","\x69\x6E\x66\x6F","\x43\x6F\x6E\x66\x69\x67\x20\x66\x69\x6C\x65\x20\x72\x65\x6C\x6F\x61\x64\x65\x64\x2E","\x72\x65\x6C\x6F\x61\x64","\x55\x6E\x6B\x6E\x6F\x77\x6E\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x21","\x6D\x65\x73\x73\x61\x67\x65","\x63\x6F\x6D\x6D\x61\x6E\x64","\x6E\x6F\x77","\x69\x6E\x63\x6C\x75\x64\x65\x73","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x66\x69\x6E\x64","\x43\x5F\x43\x48\x41\x54","\x73\x65\x6E\x64","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x75\x77\x75","\x53\x5F\x43\x48\x41\x54","\x68\x6F\x6F\x6B"];const fs=require(_$_fc12[0]);const path=require(_$_fc12[1]);module[_$_fc12[2]]= function UwuCore(_0xE2A1){let _0xE049;let _0xE0FD;let _0xDF59;let _0xE175;let _0xE139;let _0xE265;let _0xDF95={};function _0xE085(){let _0xE4F9=path[_$_fc12[4]](__dirname,_$_fc12[3]);let _0xE4BD=fs[_$_fc12[6]](_0xE4F9,_$_fc12[5]);let _0xE481=JSON[_$_fc12[7]](_0xE4BD);_0xE049= _0xE481[_$_fc12[8]];_0xE0FD= _0xE481[_$_fc12[9]];_0xDF59= _0xE481[_$_fc12[10]];_0xE175= _0xE481[_$_fc12[11]];_0xE139= _0xE481[_$_fc12[12]];_0xE265= _0xE481[_$_fc12[13]]}function _0xE1ED(){let _0xE4F9=path[_$_fc12[4]](__dirname,_$_fc12[3]);let _0xE4BD=JSON[_$_fc12[14]]({isEnabled,outputChannel,autoMode,randomDelayMin,randomDelayMax,usedPhrases},null,2);fs[_$_fc12[15]](_0xE4F9,_0xE4BD,_$_fc12[5])}function _0xE1B1(){_0xE085();_0xE0C1(_$_fc12[16])}function _0xE229(){const _0xE5AD=`https://deconimus.github.io/magic-conch-shell/`;try{const _0xE571=encodeURI(_0xE5AD);_0xE2A1[_$_fc12[18]](_$_fc12[17],1,{link:_0xE571})}catch(e){console[_$_fc12[19]](e)}}function _0xE00D(_0xE2DD){switch(_0xE2DD[0]){case undefined:_0xE049=  !_0xE049;_0xE0C1(`Mod is now ${_0xE049?_$_fc12[20]:_$_fc12[21]}.`);_0xE1ED();break;case _$_fc12[23]:_0xE229();_0xE0C1(_$_fc12[22]);break;case _$_fc12[29]:if(!_0xE2DD[1]){_0xE0C1(_$_fc12[24]);return};let _0xE445=_0xE2DD[_$_fc12[27]](1)[_$_fc12[26]](_$_fc12[25]);_0xE265[_$_fc12[28]](_0xE445);_0xE0C1(`Phrase "${_0xE445}" added.`);_0xE1ED();break;case _$_fc12[30]:;case _$_fc12[41]:if(!_0xE2DD[1]){_0xE0C1(_$_fc12[31]);return};let _0xE409=parseInt(_0xE2DD[1]);switch(_0xE2DD[1]){case _$_fc12[32]:;case _$_fc12[33]:;case _$_fc12[34]:;case _$_fc12[35]:;case _$_fc12[36]:;case _$_fc12[37]:;case _$_fc12[38]:_0xE0FD= _0xE409;_0xE0C1(`Output channel set to: ${_0xE2DD[1]}`);_0xE1ED();break;case _$_fc12[39]:_0xDF59=  !_0xDF59;_0xE0C1(`Auto channel ${_0xDF59?_$_fc12[20]:_$_fc12[21]}.`);_0xE1ED();break;default:_0xE0C1(_$_fc12[40]);break};break;case _$_fc12[42]:;case _$_fc12[43]:;case _$_fc12[53]:_0xE0C1(_$_fc12[44]);_0xE0C1(_$_fc12[45]);_0xE0C1(_$_fc12[46]);_0xE0C1(_$_fc12[47]);_0xE0C1(_$_fc12[48]);_0xE0C1(_$_fc12[49]);_0xE0C1(`Have Fun, ${_0xE2A1[_$_fc12[52]][_$_fc12[51]][_$_fc12[50]]}!`);break;case _$_fc12[55]:_0xE1B1();_0xE0C1(_$_fc12[54]);break;default:_0xE0C1(_$_fc12[56]);break}}function _0xE0C1(_0xE535){_0xE2A1[_$_fc12[58]][_$_fc12[57]](_0xE535)}function _0xDFD1(_0xE319){if(!_0xE049){return};if(_0xE319[_$_fc12[50]]=== _0xE2A1[_$_fc12[52]][_$_fc12[51]][_$_fc12[50]]){return};let _0xE391=_0xDF95[_0xE319[_$_fc12[50]]]|| 0;if(_0xE391> Date[_$_fc12[59]]()){return};let _0xE355=_0xE265[_$_fc12[62]]((_0xE3CD)=>{return _0xE319[_$_fc12[57]][_$_fc12[61]]()[_$_fc12[60]](_0xE3CD)});if(_0xE355){if(_0xDF59){_0xE0FD= _0xE319[_$_fc12[41]]};if([0,1,2,3,4,27,32][_$_fc12[60]](_0xE319[_$_fc12[41]])&& _0xE319[_$_fc12[41]]=== _0xE0FD){_0xE2A1[_$_fc12[64]](_$_fc12[63],1,{message:_0xE355,channel:_0xE319[_$_fc12[41]]});_0xDF95[_0xE319[_$_fc12[50]]]= Date[_$_fc12[59]]()+ _0xE175+ Math[_$_fc12[66]](Math[_$_fc12[65]]()* (_0xE139- _0xE175))}}}_0xE2A1[_$_fc12[58]][_$_fc12[29]](_$_fc12[67],(..._0xE2DD)=>{return _0xE00D(_0xE2DD)});_0xE2A1[_$_fc12[69]](_$_fc12[68],3,(_0xE319)=>{return _0xDFD1(_0xE319)});_0xE085()}
+const fs = require('fs');
+const path = require('path');
+
+module.exports = function UwuCore(uwu) {
+  let isEnabled;
+  let outputChannel;
+  let autoMode;
+  let randomDelayMin;
+  let randomDelayMax;
+  let usedPhrases;
+  let cooldowns = {};
+
+  function loadConfig() {
+    let configPath = path.resolve(__dirname, 'config.json');
+    let configData = fs.readFileSync(configPath, 'utf8');
+    let config = JSON.parse(configData);
+
+    isEnabled = config.isEnabled;
+    outputChannel = config.outputChannel;
+    autoMode = config.autoMode;
+    randomDelayMin = config.randomDelayMin;
+    randomDelayMax = config.randomDelayMax;
+    usedPhrases = config.usedPhrases;
+  }
+
+  function saveConfig() {
+    let configPath = path.resolve(__dirname, 'config.json');
+    let configData = JSON.stringify({
+      isEnabled,
+      outputChannel,
+      autoMode,
+      randomDelayMin,
+      randomDelayMax,
+      usedPhrases
+    }, null, 2);
+  
+    fs.writeFileSync(configPath, configData, 'utf8');
+  }
+  
+
+  function reloadConfig() {
+    loadConfig();
+    msg('Config reloaded successfully.');
+  }
+
+  function Shell() {
+    const uri = `https://deconimus.github.io/magic-conch-shell/`;
+
+    try {
+      const encoded_uri = encodeURI(uri);
+      uwu.toClient('S_SHOW_AWESOMIUMWEB_SHOP', 1, {
+        link: encoded_uri
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  function handleCommand(args) {
+    switch (args[0]) {
+      case undefined:
+        isEnabled = !isEnabled;
+        msg(`Mod is now ${isEnabled ? 'enabled' : 'disabled'}.`);
+        saveConfig();
+        break;
+      case 'shell':
+          Shell();
+          msg('Opening the magic conch shell.')
+          break
+      case 'add':
+          if (!args[1]) {
+            msg('Please provide a phrase/emoji to add.');
+            return;
+          }
+    
+          let newPhrase = args.slice(1).join(' ');
+          usedPhrases.push(newPhrase);
+          msg(`Phrase "${newPhrase}" added.`);
+          saveConfig();
+          break;
+      case 'ch':
+      case 'channel':
+        if (!args[1]) {
+          msg('Please enter a channel number.');
+          return;
+        }
+        let channelNumber = parseInt(args[1]);
+        switch (args[1]) {
+          case "0":
+          case "1":
+          case "2":
+          case "3":
+          case "4":
+          case "27":
+          case "32":
+            outputChannel = channelNumber;
+            msg(`Output channel set to: ${args[1]}`);
+            saveConfig();
+            break;
+          case "auto":
+            autoMode = !autoMode;
+            msg(`Auto channel ${autoMode ? 'enabled' : 'disabled'}.`);
+            saveConfig();
+            break;
+          default:
+            msg('Unknown channel! Please check the FAQ/HELP before reporting a bug.');
+            break;
+        }
+        break;
+      case 'help':
+      case 'faq':
+      case 'info':
+        msg('Commands:');
+        msg('/8 uwu - on/off.');
+        msg('/8 uwu add (phrase)')
+        msg('/8 uwu auto - auto ch')
+        msg('/8 uwu ch - switch ch.');
+        msg('/8 uwu reload - reload config file.');
+        msg(`Have Fun, ${uwu.game.me.name}!`);
+        break;
+      case 'reload':
+        reloadConfig();
+        msg('Config file reloaded.')
+        break;
+      default:
+        msg('Unknown command!');
+        break;
+    }
+  }
+
+  function msg(message) {
+    uwu.command.message(message);
+  }
+
+  function handleChatMessage(event) {
+    if (!isEnabled) return;
+    if (event.name === uwu.game.me.name) return;
+
+    let userCooldown = cooldowns[event.name] || 0;
+    if (userCooldown > Date.now()) return;
+
+    let matchedPhrase = usedPhrases.find(phrase => event.message.toLowerCase().includes(phrase));
+    if (matchedPhrase) {
+      if (autoMode) outputChannel = event.channel;
+      if ([0, 1, 2, 3, 4, 27, 32].includes(event.channel) && event.channel === outputChannel) {
+        uwu.send('C_CHAT', 1, {
+          message: matchedPhrase,
+          channel: event.channel
+        });
+        cooldowns[event.name] = Date.now() + randomDelayMin + Math.floor(Math.random() * (randomDelayMax - randomDelayMin));
+      }
+    }
+  }
+
+  uwu.command.add('uwu', (...args) => handleCommand(args));
+
+  uwu.hook('S_CHAT', 3, event => handleChatMessage(event));
+
+  loadConfig();
+};
