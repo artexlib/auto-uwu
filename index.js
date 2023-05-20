@@ -115,12 +115,12 @@ module.exports = function UwuCore(uwu) {
         msg('/8 uwu add (phrase)')
         msg('/8 uwu auto - auto ch')
         msg('/8 uwu ch - switch ch.');
+        msg('/8 uwu shell - opens magic conch shell.')
         msg('/8 uwu reload - reload config file.');
         msg(`Have Fun, ${uwu.game.me.name}!`);
         break;
       case 'reload':
         reloadConfig();
-        msg('Config file reloaded.')
         break;
       default:
         msg('Unknown command!');
