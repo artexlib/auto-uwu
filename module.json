@@ -1,0 +1,12 @@
+{
+    "disableAutoUpdate": false,
+    "name": "auto-uwu",
+    "author": "ArtexLib",
+    "description": "Auto response with UwU whenever hooked at a specified channel.",
+    "options": {
+        "niceName": "<font color='#FD5DA8'>Auto-UwU</font>",
+        "settingsFile": "config.json"
+    },
+    "servers": ["https://raw.githubusercontent.com/artexlib/auto-uwu/main/"],
+    "supportUrl": "https://github.com/artexlib/auto-uwu/issues/"
+}
