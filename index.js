@@ -102,6 +102,15 @@ module.exports = function UwuCore(uwu) {
             msg(`Auto channel ${autoMode ? 'enabled' : 'disabled'}.`);
             saveConfig();
             break;
+          case "list":
+            msg('Avaiable channels:')
+            msg('0 - Say')
+            msg('1 - Party')
+            msg('2 - Guild')
+            msg('3 - Area')
+            msg('4 - Trade')
+            msg('27 - Global')
+            msg('32 - Raid')
           default:
             msg('Unknown channel! Please check the FAQ/HELP before reporting a bug.');
             break;
@@ -113,8 +122,9 @@ module.exports = function UwuCore(uwu) {
         msg('Commands:');
         msg('/8 uwu - on/off.');
         msg('/8 uwu add (phrase)')
-        msg('/8 uwu auto - auto ch')
         msg('/8 uwu ch - switch ch.');
+        msg('/8 uwu ch auto - auto ch')
+        msg('/8 uwu ch list - ch ID list')
         msg('/8 uwu shell - opens magic conch shell.')
         msg('/8 uwu reload - reload config file.');
         msg(`Have Fun, ${uwu.game.me.name}!`);
