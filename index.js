@@ -103,14 +103,15 @@ module.exports = function UwuCore(uwu) {
             saveConfig();
             break;
           case "list":
-            msg('Available channels:')
-            msg('0 - Say')
-            msg('1 - Party')
-            msg('2 - Guild')
-            msg('3 - Area')
-            msg('4 - Trade')
-            msg('27 - Global')
-            msg('32 - Raid')
+            msg('Available channels:');
+            msg('0 - Say');
+            msg('1 - Party');
+            msg('2 - Guild');
+            msg('3 - Area');
+            msg('4 - Trade');
+            msg('27 - Global');
+            msg('32 - Raid');
+            break;
           default:
             msg('Unknown channel! Please check the FAQ/HELP before reporting a bug.');
             break;
