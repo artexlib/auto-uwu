@@ -17,6 +17,8 @@ Command | Description
 /8 uwu | Enables/Disabled module.
 /8 uwu add (phrase) | Adds a new phrase/emoji via command.
 /8 uwu ch (ID) | Specifies channel output && input. ID must be a number.
+/8 uwu ch auto | Automatic channel switcher.
+/8 uwu ch list | Showing a list of available channel IDs.
 /8 uwu shell | Ask the magic conch shell.
 /8 uwu help | In-game commands list.
 /8 uwu reload | Reload the config file.
