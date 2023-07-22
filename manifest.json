@@ -1,6 +1,6 @@
 {
     "files": {
-        "index.js": "2cdd9fc3eab8cca78681812f71818bf956987aef55a17413ee5faf812c2a9914",
+        "lib/index.js": "f0cbeeb310508198a977dce55d1d5e99a1a6a74afacd975a48c1aaf55bbb176a",
         "module.json": "cdde1aa125612b9625e0e741f25aed24800425147f6f9299a1218c23d1ec182a"
     },
     "defs": {
