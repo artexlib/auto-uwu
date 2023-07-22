@@ -103,7 +103,7 @@ module.exports = function UwuCore(uwu) {
             saveConfig();
             break;
           case "list":
-            msg('Avaiable channels:')
+            msg('Available channels:')
             msg('0 - Say')
             msg('1 - Party')
             msg('2 - Guild')
