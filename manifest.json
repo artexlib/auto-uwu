@@ -5,7 +5,7 @@
         "lib/index.js": "3c1881374bf713d4741d17ce5efbae7ece1542ada32b0b4609c9a451be429c0e",
         "lib/settings/settings_migrator.js": "57f3e3228d770aaab18cc88aaba0e1994c961f9136fe001bdf895d62c60c9776",
         "lib/settings/settings_structure.js": "9dcf049dccf54fbcfe3dfebb66e48e11143b461b3665d0729c6136f50c76ee6b",
-        "module.json": "496f4dc1ca4e1b00c939d473c2e51a8e14d2d8c34b197ed2eb42b1bb7be28333",
+        "module.json": "3f6c97c54ef28e39e87238b2a6906942325a4b458baa2d2bd3a2f21c421c93b5",
         "package.json": "637c7e0426006ba215bd242713188f229b6bc28b1514a78227843f39449890fe"
     },
     "defs": {
