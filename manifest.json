@@ -1,7 +1,12 @@
 {
     "files": {
-        "lib/index.js": "9a5b18b9efa40364a3e1f85817a4dadeee659a99af0badedbf845e5ae679c41b",
-        "module.json": "cdde1aa125612b9625e0e741f25aed24800425147f6f9299a1218c23d1ec182a"
+        "LICENSE": "2c365f9b0c5cffff37b21901d74bceb0f64f884fc04f08a6ffc23dfb6166ed18",
+        "README.md": "6f34fb5f4096136ec66ed7af7d645383781c6705277971dcf3f1f3436c6bbf39",
+        "index.js": "74fc019ac23cdb9cfd5014d023907c40017f181708738d6ec5a60b45a5a3d48a",
+        "module.json": "f107b8abe7359651212c12f8db968029b4422d6bf590fe3a3d66fe28c78a5320",
+        "package.json": "d1c73fbbae576389a08efbef315b68e50a465eaee8235952fe7cc98b8b062db3",
+        "settings_migrator.js": "57f3e3228d770aaab18cc88aaba0e1994c961f9136fe001bdf895d62c60c9776",
+        "settings_structure.js": "9dcf049dccf54fbcfe3dfebb66e48e11143b461b3665d0729c6136f50c76ee6b"
     },
     "defs": {
         "C_CHAT": 1,
