@@ -1,11 +1,10 @@
 # auto-uwu
 - Auto response with UwU, OwO, QwQ... whenever hooked at a specified channel.
-- More UwUs futures soon.
-- Custom UI soon.
-- Report me any issues/bugs.
-- Check Commands.
+- More UwU futures soon.
+- Config changes by in-game commands or UI.
+- Please, redownload if i fk up something with the module/manifest.
 - Emotes: uwu, owo, qwq, qvq, ewo, uwo, q_q, owu, owe, ewe, u.u and more... You can add yours!
-- To add more emotes for the script to listen edit config.json.
+- To add more emotes for the script to listen edit config.json or use the command.
 
 Note: All commands start with the prefix `/8 uwu`
 
