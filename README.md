@@ -15,6 +15,7 @@ Note: [Magic Conch Shell](https://deconimus.github.io/magic-conch-shell/)
 Command | Description
 --- | ---
 /8 uwu | Enables/Disabled module.
+/8 uwu ui | Settings UI.
 /8 uwu add (phrase) | Adds a new phrase/emoji via command.
 /8 uwu ch (ID) | Specifies channel output && input. ID must be a number.
 /8 uwu ch auto | Automatic channel switcher.

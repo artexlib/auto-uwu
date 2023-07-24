@@ -82,6 +82,7 @@ module.exports = function UwuCore(mod) {
       case 'info':
         msg('Commands:');
         msg('/8 uwu - on/off.');
+        msg('/8 uwu ui - settings ui.')
         msg('/8 uwu add (phrase)')
         msg('/8 uwu ch - switch ch.');
         msg('/8 uwu ch auto - auto ch')
@@ -126,7 +127,7 @@ module.exports = function UwuCore(mod) {
 
   let ui = null;
     if (global.TeraProxy.GUIMode) {
-    ui = new SettingsUI(mod, require('./settings_structure'), mod.settings, { alwaysOnTop: true, height: 250 });
+    ui = new SettingsUI(mod, require('./settings_structure'), mod.settings, { height: 200 });
     ui.on('update', settings => { mod.settings = settings; });
 
     this.destructor = () => {
