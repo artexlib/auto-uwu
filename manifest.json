@@ -1,8 +1,8 @@
 {
     "files": {
         "LICENSE": "2c365f9b0c5cffff37b21901d74bceb0f64f884fc04f08a6ffc23dfb6166ed18",
-        "README.md": "49a0cebbafe264705485d268a38546b0ef98474c711a5826a9bd0951ced9ad06",
-        "lib/index.js": "3c1881374bf713d4741d17ce5efbae7ece1542ada32b0b4609c9a451be429c0e",
+        "README.md": "e8cdf1de5eee67b20cadd09b07c8eaf32d71d204cf3be5286bd0cfbdde505ac8",
+        "lib/index.js": "733bd2b75f692801756f906ab7c4967681732b757f463439c4082c68f9b92a18",
         "lib/settings/settings_migrator.js": "57f3e3228d770aaab18cc88aaba0e1994c961f9136fe001bdf895d62c60c9776",
         "lib/settings/settings_structure.js": "9dcf049dccf54fbcfe3dfebb66e48e11143b461b3665d0729c6136f50c76ee6b",
         "module.json": "3f6c97c54ef28e39e87238b2a6906942325a4b458baa2d2bd3a2f21c421c93b5",
