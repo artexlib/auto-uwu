@@ -5,7 +5,7 @@
     "description": "Auto response with UwU whenever hooked at a specified channel.",
     "options": {
         "cliName": "<font color='#FD5DA8'>UwU</font>",
-        "guiName": "<font color='#FD5DA8'>Auto-UwU</font>",
+        "guiName": "auto-uwu",
         "settingsVersion": 1,
         "settingsFile": "config.json",
         "settingsMigrator": "./lib/settings/settings_migrator.js"
