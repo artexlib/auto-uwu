@@ -7,7 +7,7 @@
         "niceName": "<font color='#FD5DA8'>Auto-UwU</font>",
         "settingsVersion": 1,
         "settingsFile": "config.json",
-        "settingsMigrator": "settings_migrator.js"
+        "settingsMigrator": "./lib/settings/settings_migrator.js"
     },
     "servers": ["https://raw.githubusercontent.com/artexlib/auto-uwu/main/"],
     "supportUrl": "https://github.com/artexlib/auto-uwu/issues/"
