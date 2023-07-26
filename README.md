@@ -1,4 +1,4 @@
-[![Auto-UwU](https://img.shields.io/badge/auto--uwu-latest-brown)](https://github.com/artexlib/auto-uwu)
+[![Auto-UwU](https://img.shields.io/badge/auto--uwu-latest-brown)](https://github.com/artexlib/auto-uwu) [![license](https://img.shields.io/badge/license-MIT-blue)](https://github.com/artexlib/auto-uwu/blob/main/LICENSE)
 
 # auto-uwu
 - Auto response with UwU, OwO, QwQ... whenever hooked at a specified channel.
