@@ -1,8 +1,9 @@
 {
     "files": {
         "LICENSE": "2c365f9b0c5cffff37b21901d74bceb0f64f884fc04f08a6ffc23dfb6166ed18",
-        "README.md": "c0c7d40836ce38cced01e8f3ceb6a95e1fe3cc6d206a322cb951dbc0f679bf3a",
-        "lib/index.js": "360648f5ce52a5f162666dab1d9c951f648c98bb021f94b5d7b60312c9229752",
+        "README.md": "8035fc58404c606820b8cee61d112c7aabdf46a0f8c5fe30a71abd84fe88eeaa",
+        "lib/icon.png": "dea7fa215995f380932017c1c86d86932216f464bd75227b5113b0e280a3d37d",
+        "lib/index.js": "a0ebb9648a6977b1c38eeb4a5aa31267c6d8cc86db390353ce3c5612a0805a63",
         "lib/settings/settings_migrator.js": "57f3e3228d770aaab18cc88aaba0e1994c961f9136fe001bdf895d62c60c9776",
         "lib/settings/settings_structure.js": "9dcf049dccf54fbcfe3dfebb66e48e11143b461b3665d0729c6136f50c76ee6b",
         "module.json": "170bec3cc22583aaf7a21087b51b974d8ff91991567759b424c9ca07f572029b",
@@ -10,7 +11,6 @@
     },
     "defs": {
         "C_CHAT": 1,
-        "S_CHAT": 3,
-        "S_SHOW_AWESOMIUMWEB_SHOP": 1
+        "S_CHAT": 3
     }
 }
