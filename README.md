@@ -53,7 +53,10 @@ TERA Proxy module that automatically responds with emotes like "uwu", "owo", and
 
 **Customization**
 
-You can edit the `config.json` which will generate after first usage.
+* Editing the `config.json` which will generate after first-time initialization.
+* With a usage of commands listed at `/8 uwu help`.
+* You can check your current config/settings via `/8 uwu settings`.
+* By using a fency, luxury, uwu custom UI (soon).
 
 **Contributing**
 
