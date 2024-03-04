@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/artexlib/auto-uwu/issues"
   },
-  "homepage": "https://github.com/artexlib/auto-uwu#readme"
+  "homepage": "https://github.com/artexlib/auto-uwu#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
 }

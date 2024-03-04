@@ -1,16 +1,22 @@
 {
-    "files": {
-        "LICENSE": "2c365f9b0c5cffff37b21901d74bceb0f64f884fc04f08a6ffc23dfb6166ed18",
-        "README.md": "8035fc58404c606820b8cee61d112c7aabdf46a0f8c5fe30a71abd84fe88eeaa",
-        "lib/icon.png": "dea7fa215995f380932017c1c86d86932216f464bd75227b5113b0e280a3d37d",
-        "lib/index.js": "a0ebb9648a6977b1c38eeb4a5aa31267c6d8cc86db390353ce3c5612a0805a63",
-        "lib/settings/settings_migrator.js": "57f3e3228d770aaab18cc88aaba0e1994c961f9136fe001bdf895d62c60c9776",
-        "lib/settings/settings_structure.js": "9dcf049dccf54fbcfe3dfebb66e48e11143b461b3665d0729c6136f50c76ee6b",
-        "module.json": "170bec3cc22583aaf7a21087b51b974d8ff91991567759b424c9ca07f572029b",
-        "package.json": "637c7e0426006ba215bd242713188f229b6bc28b1514a78227843f39449890fe"
-    },
-    "defs": {
-        "C_CHAT": 1,
-        "S_CHAT": 3
-    }
+	"files": {
+		"LICENSE": "2c365f9b0c5cffff37b21901d74bceb0f64f884fc04f08a6ffc23dfb6166ed18",
+		"README.md": "7cba6b85b64e7ff0a6cc8f1ff62348aac81f018a6d6f1374b2cdfe8d72d89de0",
+		"lib/index.js": "a5f90dcc1e4be969ac70c97c30c7885b6d14800d35b30ad83ec647a9607e5fa6",
+		"lib/settings/settings_migrator.js": "57f3e3228d770aaab18cc88aaba0e1994c961f9136fe001bdf895d62c60c9776",
+		"lib/settings/settings_structure.js": "9dcf049dccf54fbcfe3dfebb66e48e11143b461b3665d0729c6136f50c76ee6b",
+		"module.json": "170bec3cc22583aaf7a21087b51b974d8ff91991567759b424c9ca07f572029b",
+		"package.json": "544f5dba14897280177aa8a57b035e91d67cdf237eca49953d6f948bcea0d009",
+		"lib/data/jokes.json": "2bb4e49bbf4ee07c6cb96fd9d8f05678b1d19aa68c3a39fee94ffa8fadc9dec6",
+		"lib/handlers/chat_handler.js": "67227a1bab74cfc1bb8c89985115c2ed7e22544ea5b94a8e1e2da47cb3a40372",
+		"lib/handlers/command_handler.js": "9f43d420ac34f9d5bf590a8df65207017722e7fc92809a4523cee2c214847c9c",
+		"lib/interfaces/icon.png": "dea7fa215995f380932017c1c86d86932216f464bd75227b5113b0e280a3d37d",
+		"lib/interfaces/magic_shell.js": "53ae83bdf3719e5372e7783555bb41f6aeac9551dfaaab001f6da2d25aeaad22",
+		"lib/settings/settings.js": "20b326c70b680b589273a67c7aa6ea942ec83760426611f96a456ce0a2decb2c",
+		"lib/utilities/utils.js": "7e45d94c57169e581ea2a5c8540117395673bbeacb313eb45c40074901cfd082"
+	},
+	"defs": {
+		"C_CHAT": 1,
+		"S_CHAT": 3
+	}
 }

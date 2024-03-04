@@ -1,41 +1,68 @@
-[![Auto-UwU](https://img.shields.io/badge/auto--uwu-latest-brown)](https://github.com/artexlib/auto-uwu) [![license](https://img.shields.io/badge/license-MIT-blue)](https://github.com/artexlib/auto-uwu/blob/main/LICENSE)
-
 # auto-uwu
-- Auto response with UwU, OwO, QwQ... whenever hooked at a specified channel.
-- More UwU futures soon.
-- In-game UI for some settings.
-- Check Commands.
-- Emotes: uwu, owo, qwq, qvq, ewo, uwo, q_q, owu, owe, ewe, u.u and more... You can add yours!
-- To add more emotes for the script to listen use commands or edit config.json.
 
-Note: All commands start with the prefix `/8 uwu`
+[![Auto-UwU](https://img.shields.io/badge/auto--uwu-latest-brown)](https://github.com/artexlib/auto-uwu) 
+[![license](https://img.shields.io/badge/license-MIT-blue)](https://github.com/artexlib/auto-uwu/blob/main/LICENSE)
 
-Note: [Magic Conch Shell](https://deconimus.github.io/magic-conch-shell/)
+**Description**
 
-## Commands
-Command | Description
---- | ---
-/8 uwu | Enables/Disabled module.
-/8 uwu ui | Settings UI.
-/8 uwu add (phrase) | Adds a new phrase/emoji via command.
-/8 uwu del (phrase) | Removes some phrase/emoji via command.
-/8 uwu ch (ID) | Specifies channel output && input. ID must be a number.
-/8 uwu ch auto | Automatic channel switcher.
-/8 uwu ch list | Showing a list of available channel IDs.
-/8 uwu ask | Ask the magic conch shell.
-/8 uwu help | In-game commands list.
-/8 uwu reload | Reload the config file.
+TERA Proxy module that automatically responds with emotes like "uwu", "owo", and others whenever it detects them in specified chat channels!  
 
-## FAQ Channels
-ID | Channel | FAQ
---- | --- | ---
-auto | all | Auto channel switcher and responder.
-0 | Say | Catch UwU + response in Say
-1 | Party | Catch UwU + response in Party
-2 | Guild | Catch UwU + response in Guild
-3 | Area | Catch UwU + response in Area
-4 | Trade | Catch UwU + response in Trade
-27 | Global | Catch UwU + response in Global
-32 | Raid | Catch UwU + response in Raid
+**Features**
 
-![Alt Text](https://s4.gifyu.com/images/dcx3nhc-6718091c-11a0-4f78-a333-9e9eef5d2e8f.gif)
+* Responds with various uwu-themed emotes.
+* Support for customizable emotes.
+* In-game UI/commands for easy configuration.
+* Automatic channel switching for seamless integration.
+* Integrated Magic Conch Shell for fun as well as some boomer jokes ;-;.
+
+**Commands**
+
+* `/8 uwu` - Toggles the module on/off.
+* `/8 uwu add (phrase)` - Adds a new emote or phrase to trigger the response.
+* `/8 uwu del (phrase)` - Removes an emote or phrase.
+* `/8 uwu ch (name)`  - Specifies the output and input channel (use a channel name from the list below). 
+* `/8 uwu ch auto` - Enables automatic channel switching.
+* `/8 uwu ch list` - Displays a list of valid channel names.
+* `/8 uwu ask` - Asks a question to the Magic Conch Shell.
+* `/8 uwu joke` - Tells a random joke.
+* `/8 uwu help` - Shows the in-game help message.
+
+**FAQ Channels**
+
+* **auto**: Enables automatic channel switching and response.
+* **say**: Responds in the Say chat.
+* **party**: Responds in the Party chat. 
+* **guild**: Responds in the Guild chat. 
+* **area**: Responds in the Area chat.
+* **trade**: Responds in the Trade chat.
+* **global**:  Responds in the Global chat.
+* **raid**: Responds in the Raid chat. 
+
+**Example Usage**
+
+1. Install the module.
+2. Enable the module in-game with `/8 uwu`.
+3. Customize settings with commands.
+4. Await "uwu" in chat, within any supported chat channel to trigger an automatic response from you!
+
+**Installation (via TERA Toolbox)**
+
+1. Download the latest release or development version of the module.
+2. Install the module at your mods folder.
+
+**Customization**
+
+You can edit the `config.json` which will generate after first usage.
+
+**Contributing**
+
+Feel free to submit issues or pull requests on the GitHub repository.
+
+**Contact**
+
+* Author: ArtexLib
+* GitHub: https://github.com/artexlib/auto-uwu
+
+**Enjoy!**
+
+[![Alt Text](https://s4.gifyu.com/images/dcx3nhc-6718091c-11a0-4f78-a333-9e9eef5d2e8f.gif)](https://github.com/artexlib/auto-uwu) 
