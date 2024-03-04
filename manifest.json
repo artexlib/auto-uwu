@@ -1,10 +1,10 @@
 {
     "files": {
         "LICENSE": "2c365f9b0c5cffff37b21901d74bceb0f64f884fc04f08a6ffc23dfb6166ed18",
-        "README.md": "c25c8241f9720fecfea6aeb123642ab353e10e55b13b82d5d6b871a176af8300",
+        "README.md": "52e2129b626e9af28c5c622affcdbad148a9dfc4ef88a51a552e9737e870d1f5",
         "lib/data/jokes.json": "0f4dd194f428c186fd745164b3d5c8f546439af5c83569e3cc834a849b26bbf7",
         "lib/handlers/chat_handler.js": "f435415a2adc5d2ed611714f03e2ec1a1f27b30ed2d0267337eb37e8f780e572",
-        "lib/handlers/command_handler.js": "862b3bf3f041019cb66ed6855e177be9e273a352cfed3238a17ca27d713000b3",
+        "lib/handlers/command_handler.js": "9ce581a65895da16b74e967b1af7fecfdd2b279fc9ae2e8b549805fa9b2238ce",
         "lib/index.js": "22fdc7328121b6b0b7062df60d3488437e31f455aa982cc88503a98ce2ab6898",
         "lib/interfaces/electron_interface.js": "a1eb5815f6450c613cc83ad46d25bd49b6c543f87c1052a11ff2063eeb737eef",
         "lib/interfaces/icon.png": "cd94c54b215d1c8b39a9604419db1cb65a8f58d1f4d1f5ca719a8b99eb332bbb",
