@@ -62,7 +62,3 @@ Feel free to submit issues or pull requests on the GitHub repository.
 
 * Author: ArtexLib
 * GitHub: https://github.com/artexlib/auto-uwu
-
-**Enjoy!**
-
-[![Alt Text](https://s4.gifyu.com/images/dcx3nhc-6718091c-11a0-4f78-a333-9e9eef5d2e8f.gif)](https://github.com/artexlib/auto-uwu) 
