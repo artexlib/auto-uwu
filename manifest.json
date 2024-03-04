@@ -1,7 +1,7 @@
 {
     "files": {
         "LICENSE": "2c365f9b0c5cffff37b21901d74bceb0f64f884fc04f08a6ffc23dfb6166ed18",
-        "README.md": "639bf2b865fc0aa34c6915efca1e87358d54104752f7d447a9b3d07a6334c25d",
+        "README.md": "c25c8241f9720fecfea6aeb123642ab353e10e55b13b82d5d6b871a176af8300",
         "lib/data/jokes.json": "0f4dd194f428c186fd745164b3d5c8f546439af5c83569e3cc834a849b26bbf7",
         "lib/handlers/chat_handler.js": "f435415a2adc5d2ed611714f03e2ec1a1f27b30ed2d0267337eb37e8f780e572",
         "lib/handlers/command_handler.js": "1bd67ee57c4172c0756bc8795cfbd7a0f3c61980a108992bfdeda260c16cdef5",
