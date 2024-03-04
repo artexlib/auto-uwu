@@ -13,7 +13,7 @@ TERA Proxy module that automatically responds with emotes like "uwu", "owo", and
 * Support for customizable emotes.
 * In-game UI/commands for easy configuration.
 * Automatic channel switching for seamless integration.
-* Integrated [Magic Conch Shell](https://deconimus.github.io/magic-conch-shell/) for fun as well as some boomer jokes ;-;.
+* Integrated [Magic Conch Shell](https://deconimus.github.io/magic-conch-shell/) for fun as well as some boomer jokes.
 
 **Commands**
 
