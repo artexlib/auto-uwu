@@ -4,7 +4,7 @@
         "README.md": "3758080c2a296c7a1a3abe1394eb53ace8303724c20f3423a2cc0ed1a0291da1",
         "lib/data/jokes.json": "0f4dd194f428c186fd745164b3d5c8f546439af5c83569e3cc834a849b26bbf7",
         "lib/handlers/chat_handler.js": "f435415a2adc5d2ed611714f03e2ec1a1f27b30ed2d0267337eb37e8f780e572",
-        "lib/handlers/command_handler.js": "f331b61b1cc873f50477781b7e2fbfc9aa1ef7b9ed52ed458bfface5d977ce7d",
+        "lib/handlers/command_handler.js": "a1a36b7506d07d7da68e2b50ea6540a415f89f89f7baa56bf2a76f494015854d",
         "lib/index.js": "22fdc7328121b6b0b7062df60d3488437e31f455aa982cc88503a98ce2ab6898",
         "lib/interfaces/electron_interface.js": "a1eb5815f6450c613cc83ad46d25bd49b6c543f87c1052a11ff2063eeb737eef",
         "lib/interfaces/icon.png": "cd94c54b215d1c8b39a9604419db1cb65a8f58d1f4d1f5ca719a8b99eb332bbb",
