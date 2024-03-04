@@ -8,7 +8,7 @@
         "lib/index.js": "22fdc7328121b6b0b7062df60d3488437e31f455aa982cc88503a98ce2ab6898",
         "lib/interfaces/electron_interface.js": "a1eb5815f6450c613cc83ad46d25bd49b6c543f87c1052a11ff2063eeb737eef",
         "lib/interfaces/icon.png": "cd94c54b215d1c8b39a9604419db1cb65a8f58d1f4d1f5ca719a8b99eb332bbb",
-        "lib/settings/settings.js": "6b66a80b334aab7ee2c0c5834ea8b03a9b2f288171c8fb7bc90d0e9869287981",
+        "lib/settings/settings.js": "f52e04ab41167e54f18e916c92b0a89e1798a05d5d90dee1c31619455305ba23",
         "lib/settings/settings_migrator.js": "57f3e3228d770aaab18cc88aaba0e1994c961f9136fe001bdf895d62c60c9776",
         "lib/settings/settings_structure.js": "9dcf049dccf54fbcfe3dfebb66e48e11143b461b3665d0729c6136f50c76ee6b",
         "lib/utilities/utils.js": "4e0bcb0be12d5d1e979e61f6a7b4830ac4e97ee863fa9bb052573153a996531c",
