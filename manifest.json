@@ -10,11 +10,10 @@
 		"lib/data/jokes.json": "2bb4e49bbf4ee07c6cb96fd9d8f05678b1d19aa68c3a39fee94ffa8fadc9dec6",
 		"lib/handlers/chat_handler.js": "67227a1bab74cfc1bb8c89985115c2ed7e22544ea5b94a8e1e2da47cb3a40372",
 		"lib/handlers/command_handler.js": "9f43d420ac34f9d5bf590a8df65207017722e7fc92809a4523cee2c214847c9c",
-		"lib/interfaces/icon.png": "dea7fa215995f380932017c1c86d86932216f464bd75227b5113b0e280a3d37d",
+		"lib/interfaces/icon.png": "cd94c54b215d1c8b39a9604419db1cb65a8f58d1f4d1f5ca719a8b99eb332bbb",
 		"lib/interfaces/magic_shell.js": "53ae83bdf3719e5372e7783555bb41f6aeac9551dfaaab001f6da2d25aeaad22",
 		"lib/settings/settings.js": "20b326c70b680b589273a67c7aa6ea942ec83760426611f96a456ce0a2decb2c",
-		"lib/utilities/utils.js": "7e45d94c57169e581ea2a5c8540117395673bbeacb313eb45c40074901cfd082",
-		"lib/icon.png": "dea7fa215995f380932017c1c86d86932216f464bd75227b5113b0e280a3d37d"
+		"lib/utilities/utils.js": "7e45d94c57169e581ea2a5c8540117395673bbeacb313eb45c40074901cfd082"
 	},
 	"defs": {
 		"C_CHAT": 1,
