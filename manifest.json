@@ -13,7 +13,8 @@
 		"lib/interfaces/icon.png": "dea7fa215995f380932017c1c86d86932216f464bd75227b5113b0e280a3d37d",
 		"lib/interfaces/magic_shell.js": "53ae83bdf3719e5372e7783555bb41f6aeac9551dfaaab001f6da2d25aeaad22",
 		"lib/settings/settings.js": "20b326c70b680b589273a67c7aa6ea942ec83760426611f96a456ce0a2decb2c",
-		"lib/utilities/utils.js": "7e45d94c57169e581ea2a5c8540117395673bbeacb313eb45c40074901cfd082"
+		"lib/utilities/utils.js": "7e45d94c57169e581ea2a5c8540117395673bbeacb313eb45c40074901cfd082",
+		"lib/icon.png": "dea7fa215995f380932017c1c86d86932216f464bd75227b5113b0e280a3d37d"
 	},
 	"defs": {
 		"C_CHAT": 1,
