@@ -24,7 +24,7 @@ TERA Proxy module that automatically responds with emotes like "uwu", "owo", and
 * `/8 uwu ch auto` - Enables automatic channel switching.
 * `/8 uwu list` - Displays a list of valid channel names.
 * `/8 uwu ask` - Asks a question to the Magic Conch Shell.
-* `/8 uwu joke` - Tells a random joke.
+* `/8 uwu joke` - Tells a random boomer joke.
 * `/8 uwu help` - Shows the in-game help message.
 
 **FAQ Channels**
