@@ -2,7 +2,7 @@
 	"files": {
 		"lib/data/jokes.json": "2bb4e49bbf4ee07c6cb96fd9d8f05678b1d19aa68c3a39fee94ffa8fadc9dec6",
 		"lib/handlers/chat_handler.js": "67227a1bab74cfc1bb8c89985115c2ed7e22544ea5b94a8e1e2da47cb3a40372",
-		"lib/handlers/command_handler.js": "9108c13c22c6052c3f6e45cb7e62211d75b8d1b7f9c5d483b5ceb94114606e63",
+		"lib/handlers/command_handler.js": "27223157c1003bb3c0651ad971cfeb275582958ddfbb84122198ee19b2237ad7",
 		"lib/index.js": "ec15e95e6ff6a7d1d543cbdf1db0f9b8da48407d3030e6cf42813ee6488b91d2",
 		"lib/interfaces/icon.png": "cd94c54b215d1c8b39a9604419db1cb65a8f58d1f4d1f5ca719a8b99eb332bbb",
 		"lib/settings/settings.js": "20b326c70b680b589273a67c7aa6ea942ec83760426611f96a456ce0a2decb2c",
@@ -12,7 +12,7 @@
 		"LICENSE": "2c365f9b0c5cffff37b21901d74bceb0f64f884fc04f08a6ffc23dfb6166ed18",
 		"module.json": "170bec3cc22583aaf7a21087b51b974d8ff91991567759b424c9ca07f572029b",
 		"package.json": "544f5dba14897280177aa8a57b035e91d67cdf237eca49953d6f948bcea0d009",
-		"README.md": "3f6979e09320a3c1f52f96ebf5f6e0975aba1b3f7d8dc48c893f60dc85bbddb4",
+		"README.md": "574b171223f2749c52fa000d3f643b24779ad4323d659c80d1c908e6303f159f",
 		"lib/interfaces/electron_interface.js": "53ae83bdf3719e5372e7783555bb41f6aeac9551dfaaab001f6da2d25aeaad22"
 	}
 }
