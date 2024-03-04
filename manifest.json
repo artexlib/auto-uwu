@@ -4,8 +4,8 @@
         "README.md": "c25c8241f9720fecfea6aeb123642ab353e10e55b13b82d5d6b871a176af8300",
         "lib/data/jokes.json": "0f4dd194f428c186fd745164b3d5c8f546439af5c83569e3cc834a849b26bbf7",
         "lib/handlers/chat_handler.js": "f435415a2adc5d2ed611714f03e2ec1a1f27b30ed2d0267337eb37e8f780e572",
-        "lib/handlers/command_handler.js": "1bd67ee57c4172c0756bc8795cfbd7a0f3c61980a108992bfdeda260c16cdef5",
-        "lib/index.js": "ec15e95e6ff6a7d1d543cbdf1db0f9b8da48407d3030e6cf42813ee6488b91d2",
+        "lib/handlers/command_handler.js": "e9bbb49caa44ec2839cbab3319ffd19f3f8ba40d7c8f4f0cc49d7be3618a9d53",
+        "lib/index.js": "22fdc7328121b6b0b7062df60d3488437e31f455aa982cc88503a98ce2ab6898",
         "lib/interfaces/electron_interface.js": "a1eb5815f6450c613cc83ad46d25bd49b6c543f87c1052a11ff2063eeb737eef",
         "lib/interfaces/icon.png": "cd94c54b215d1c8b39a9604419db1cb65a8f58d1f4d1f5ca719a8b99eb332bbb",
         "lib/settings/settings.js": "6b66a80b334aab7ee2c0c5834ea8b03a9b2f288171c8fb7bc90d0e9869287981",
@@ -17,7 +17,6 @@
     },
     "defs": {
         "C_CHAT": 1,
-        "S_CHAT": 3,
-        "S_LOGIN": 14
+        "S_CHAT": 3
     }
 }
